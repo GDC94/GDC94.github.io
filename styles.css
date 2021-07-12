@@ -264,7 +264,7 @@ a {
 }
 
 .home__data {
-  margin-top: 1rem;
+  
   color: var(--first-color-lighten);
   padding-left: 1.5rem;
   z-index: var(--z-tooltip);
@@ -588,7 +588,7 @@ a {
 .circle {
   
   position: absolute;
-  top: 115%;
+  top: 130%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -953,6 +953,16 @@ a {
 
 
 
+.object_rocket{
+  z-index: -195;
+  position: absolute;
+  transform: translateX(-50px);
+  top: 45%;
+  filter: blur(1px);
+  left: 80%;
+  pointer-events: none;
+  animation: rocket-movement 200s linear infinite both running;
+}
 
 
 
@@ -993,6 +1003,11 @@ a {
   text-align: center;
   margin: 20px;
   
+}
+
+.meeting{
+  color: rgb(238, 255, 0);
+  border-bottom: 1px solid var(--first-color);
 }
 
 .about__description span {
@@ -1358,7 +1373,7 @@ margin-top: 10%;
 }
 
 .footer__title{
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: var(--mb-1);
   font-weight: var(--font-semi-bold);
   color: var(--first-color-lighten);
@@ -1524,7 +1539,7 @@ margin-top: 10%;
     right: 26.5%;
   }
   .home__data .slogan{
-    font-size: 18px;
+    font-size: 13px;
     
   }
   .object_earth {
@@ -1542,7 +1557,11 @@ margin-top: 10%;
   #progressbar {
     display: none;
   }
-
+  
+  .forest{
+    max-width: 342px;
+    margin-bottom: 0;
+  }
 
 }
 
@@ -1705,7 +1724,7 @@ margin-top: 10%;
 
 
 
-@media only screen and (min-width: 1024px) and (max-height: 768px)
+@media only screen and (min-width: 1024px) and (max-height: 1366px)
     and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
     /* ... */
 .home{
@@ -1739,7 +1758,7 @@ margin-top: 10%;
     font-size: 2.3rem;
   }
   .home__data .home__name{
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
 
@@ -1782,6 +1801,10 @@ margin-top: 10%;
   
   
   }
+
+ .forest{
+   max-width: 500px;
+ }
   
   
 }
@@ -1826,7 +1849,7 @@ margin-top: 10%;
       }
 
       .home{
-        height: 800px;
+        height: 700px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1845,7 +1868,7 @@ margin-top: 10%;
      
       .home__data .home__name{
   
-        font-size: 5rem;
+        font-size: 4.5rem;
       }
       .home__img {
         width: 230px;
@@ -1880,6 +1903,9 @@ margin-top: 10%;
       }
 
       .container2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
         margin-right: 3rem;
       }
 
@@ -1892,7 +1918,7 @@ margin-top: 10%;
 
      .portfolio{
       
-       height: 1100px;
+       height: 750px;
      }
 
 
@@ -1932,7 +1958,7 @@ margin-top: 10%;
   transform: translateX(-50px);
   top: 75%;
   pointer-events: none;
-  animation: rocket-movement 260s linear infinite both running;
+  animation: rocket-movement 200s linear infinite both running;
 }
 
 @-moz-keyframes rocket-movement { 
@@ -1947,11 +1973,5 @@ margin-top: 10%;
      
 
 } 
-
-
-
-
-
-
 
 
