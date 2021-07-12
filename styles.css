@@ -1747,9 +1747,9 @@ margin-top: 10%;
   }
 
   .home{
-    padding-top: 5rem;
+   
     padding-left: 1rem;
-    height: 450px;
+    height: 350px;
   }
   .home__img{
     width: 250px;
@@ -1761,6 +1761,8 @@ margin-top: 10%;
   .home__data .home__name{
     font-size: 5rem;
   }
+
+  
 
 
   .about{
@@ -1850,18 +1852,31 @@ margin-top: 10%;
       }
 
       .home{
-        height: 700px;
+        height: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 2rem;
       }
       .home__data .slogan{
         font-size: 1.5rem;
       }
+
+
+       
       .greeting-front{
         font-size: 2rem;
         margin-bottom: 1.6rem !important;
       }
+
+      
+
+  .circle {
+  
+  top: 100%;
+  left: 50%;
+
+  }
 
       .earth-moon .object_earth{
         top: 80%;
@@ -1883,7 +1898,7 @@ margin-top: 10%;
         border: none;
         display: grid;
         grid-template-columns:1fr;
-        height: 600px;
+        height: 700px;
       }
 
       .about{
