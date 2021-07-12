@@ -1858,6 +1858,10 @@ margin-top: 10%;
       .home__data .slogan{
         font-size: 1.5rem;
       }
+      .greeting-front{
+        font-size: 2rem;
+        margin-bottom: 1.6rem !important;
+      }
 
       .earth-moon .object_earth{
         top: 80%;
@@ -1934,7 +1938,7 @@ margin-top: 10%;
       position: fixed;
       top: 15px;
       right: 0;
-      width: 10px;
+      width: 14px;
       border-radius: 10px;
       background: linear-gradient(to top, #4ef500,#4daa21  , #0d1e38, #0d1e38);
     
