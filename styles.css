@@ -1875,14 +1875,12 @@ margin-top: 10%;
         margin-bottom: 1.6rem !important;
       }
 
-      
-
-  .circle {
+    
+      .circle {
   
-  top: 100%;
-  left: 35%;
-
-  }
+      top: 100%;
+      left: 35%;
+      } 
 
       .earth-moon .object_earth{
         top: 80%;
