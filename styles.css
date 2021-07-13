@@ -948,6 +948,7 @@ a {
 
 .fa-chevron-circle-down{
   font-size: 27px;
+
 }
 
 
@@ -1817,7 +1818,23 @@ margin-top: 10%;
 
 
 
-@media only screen and (min-width: 1024px) {
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1288px) {
+  .home{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 1288px) {
     .scroll{
       display: flex;
       align-items: center;
@@ -1853,7 +1870,7 @@ margin-top: 10%;
       }
 
       .home{
-        height: 450px;
+        height: 750px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1875,7 +1892,7 @@ margin-top: 10%;
   .circle {
   
   top: 100%;
-  left: 80%;
+  left: 35%;
 
   }
 
