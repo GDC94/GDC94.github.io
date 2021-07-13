@@ -1464,7 +1464,7 @@ margin-top: 10%;
   
   max-width: 300px;
   
-  z-index: -1000;
+  z-index: 1000;
   transform: scale(1.2);
 }
 

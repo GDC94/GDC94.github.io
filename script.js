@@ -74,3 +74,11 @@
 
 
 
+
+    /*************************Gsap**********************************/
+
+    gsap.from('.circle--inner', {opacity: 0, duration:2, delay: .5 , x:60 })
+    gsap.from('.home__data', {opacity: 0, duration:2, delay: .2 , y:60 })
+
+gsap.from('.home__social', {opacity:0, duration:2, delay:1.8, y:25, ease: 'expo.out', stagger:.2})
+gsap.from('.nav__item', {opacity:0, duration:2, delay:1.8, y:25, ease: 'expo.out', stagger:.2})
