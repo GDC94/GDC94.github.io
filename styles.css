@@ -1766,11 +1766,11 @@ a {
   }
 
   .home {
-    height: 550px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
   }
   .home__data .slogan {
     font-size: 1.5rem;
