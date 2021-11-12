@@ -13,7 +13,7 @@
   --h3-font-size: 1.125rem;
   --normal-font-size: 0.94rem;
   --smaller-font-size: 0.75rem;
-  --max-width: 1200px;
+  --max-width: 1124px;
 
   --font-medium: 500;
   --font-semi-bold: 600;
@@ -134,6 +134,8 @@ a {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--first-color-dark);
+  
+ 
 }
 
 .nav {
@@ -141,6 +143,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -235,9 +238,10 @@ a {
 
 /*=========Home ===================*/
 .home {
+  margin-top: 130px;
   background-color: transparent;
   overflow: hidden;
-  height: 700px;
+  height: 500px;
 }
 
 .home__container {
@@ -276,7 +280,7 @@ a {
 }
 
 .home__greeting {
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   letter-spacing: 2px;
   margin-right: 25px;
   color: #b7c1df;
@@ -1382,9 +1386,13 @@ a {
   justify-content: center;
 }
 
-.scene .forest {
-  z-index: 1000;
-  transform: scale(1.2);
+.scene{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.3);
+  
+
 }
 
 /*==========Media queries===========*/
@@ -1741,10 +1749,11 @@ a {
     margin-top: 2rem;
   }
 
+
   .bd-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1180px;
   }
   .container {
     display: flex;
@@ -1864,6 +1873,8 @@ a {
   .forest {
     max-width: 1200px;
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .scene {
